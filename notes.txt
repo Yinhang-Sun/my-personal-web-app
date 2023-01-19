@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title> My HTML Page</title> 
+	</head>
+	<body> 
+		My HTML page with body
+	</body>
+</html> 
+
+/src/main/resources/META-INF/resources/WEB-INF/jsp/sayHello.jsp
+
+
