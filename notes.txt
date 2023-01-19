@@ -7,6 +7,12 @@
 	</body>
 </html> 
 
+## JSP
+
 /src/main/resources/META-INF/resources/WEB-INF/jsp/sayHello.jsp
+
+/say-hello-jsp => SayHelloController - sayHelloJsp method -> sayHello 
+
+/WEB-INF/jsp/sayHello.jsp
 
 
