@@ -50,6 +50,9 @@ done
 Todo Controller 
 listTodos.jsp
 
+## Request vs Model vs Session 
+
+
 
 
 
