@@ -39,5 +39,16 @@ B3: Identifies correct View
 B4: Executes view 
 
 
+## Todo 
+
+id
+username
+description
+targetDate
+done
+
+
+
+
 
 
