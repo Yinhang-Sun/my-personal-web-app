@@ -58,6 +58,25 @@ listTodos.jsp
 /META-INF/resources/webjars/jquery/3.6.0/jquery.min.js
 
 
+## Launch MySQL database using Docker
+docker run --detach 
+--env MYSQL_ROOT_PASSWORD=dummypassword 
+--env MYSQL_USER=todos-user 
+--env MYSQL_PASSWORD=dummytodos 
+--env MYSQL_DATABASE=todos 
+--name mysql 
+--publish 3306:3306 
+
+mysql:8-oracle
+
+ref: 
+How to run MySQL database on Docker?
+Table of Contents
+Step 1: Pull the Docker Image for MySQL.
+Step 2: Deploy and Start the MySQL Container.
+Step 3: Connect with the Docker MySQL Container.
+
+
 
 
 
