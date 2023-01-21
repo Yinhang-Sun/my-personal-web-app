@@ -2,13 +2,24 @@ package com.yinhang.mypersonalwebapp.todo;
 
 import java.time.LocalDate;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
 import jakarta.validation.constraints.Size;
 
 //Database (MySQL) 
 //Static List of todos => Database (H2, MySQL) 
+
+//JPA maps Bean to Database Table 
+//Bean -> Database 
+
+@Entity
 public class Todo {
 
+	@Id
+	@GeneratedValue
 	private int id;
+
 	private String username;
 	
 	@Size(min=10, message="Enter at least 10 characters")
